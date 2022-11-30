@@ -11622,3 +11622,25 @@ footer a:hover, footer a:active, footer a:focus {
     max-width: 17rem;
   }
 }
+
+@media (max-width: 800px) {
+  #qrcode {
+    display: none;
+  }
+
+  #downloadbtn {
+    display: block;
+  }
+}
+
+@media (min-width: 800px) {
+  #downloadbtn {
+    display: none;
+  }
+
+  #qrcode {
+    display: block;
+  }
+}
+
+
