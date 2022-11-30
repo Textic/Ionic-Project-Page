@@ -11623,7 +11623,7 @@ footer a:hover, footer a:active, footer a:focus {
   }
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   #qrcode {
     display: none;
   }
@@ -11641,6 +11641,6 @@ footer a:hover, footer a:active, footer a:focus {
   #qrcode {
     display: block;
   }
-}
+} */
 
 

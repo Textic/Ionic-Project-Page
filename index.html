@@ -16,6 +16,24 @@
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            @media (max-width: 800px) {
+                #qrcode {
+                    display: none;
+                }
+                #downloadbtn {
+                    display: block;
+                }
+            }
+            @media (min-width: 800px) {
+                #downloadbtn {
+                    display: none;
+                }
+                #qrcode {
+                    display: block;
+                }
+            }
+        </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
